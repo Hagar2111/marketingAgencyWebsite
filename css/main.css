@@ -69,7 +69,11 @@ body{
     position: relative;
     height: 100vh;
 }
-
+@media screen and (max-width: 767px) {
+    .header{
+        height: 600px;
+    }
+}
 /*Start Navbar*/
 
 .header .navbar {
