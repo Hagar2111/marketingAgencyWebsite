@@ -5,11 +5,13 @@ First color: #FF1C26
 second color: #171C38
 third color: #0F57EAs
 */
+*{
+    font-family: Ubuntu-R
+}
 body{
     perspective: 1000px;
     margin: 0;
     padding: 0;
-    font-family: Ubuntu-R
 }
 /*Start My Css Code*/
 
@@ -72,7 +74,6 @@ body{
 
 .header .navbar {
     z-index: 4;
-    padding-bottom: 10px;
     margin-inline-start: auto;
 }
 .header .navbar:before {
@@ -90,6 +91,9 @@ body{
     padding-bottom: 20px;
     color: #FFF;
     margin-left: auto;
+}
+.header .navbar .navbar-toggler{
+    padding-bottom: 10px;
 }
 .header .navbar .navbar-nav li{
     margin-left:20px;
