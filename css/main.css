@@ -1,0 +1,450 @@
+/*
+Coder: Hagar
+My colors:-
+First color: #FF1C26
+second color: #171C38
+third color: #0F57EAs
+*/
+body{
+    perspective: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu-R
+}
+/*Start My Css Code*/
+
+.layer{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top:0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    
+}
+
+/*Style ov all h2s*/
+
+
+.title {
+	position: relative;
+	margin-bottom: 70px;
+	padding-bottom: 25px;
+	font-weight: 700;
+    color: #FFF;
+    text-align: center;
+}
+.title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: #FF1C26;
+}
+.title:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: #FF1C26;
+}
+
+/*End My Css Code*/
+
+/*Start Header*/
+
+.header{
+    background-image: url('../imgs/head.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    height: 100vh;
+}
+
+/*Start Navbar*/
+
+.header .navbar {
+    z-index: 4;
+    padding-bottom: 10px;
+    margin-inline-start: auto;
+}
+.header .navbar:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 3px;
+	background-color: #FF1C26;
+}
+.header .navbar .navbar-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    margin-left: auto;
+}
+.header .navbar .navbar-nav li{
+    margin-left:20px;
+}
+.header .navbar .nav-item .nav-link {
+    color: #FFF;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: Ubuntu-M;
+}
+.header .navbar .nav-item .nav-link:hover{
+    color: #FF1C26
+}
+
+/*End Navbar*/
+
+.header .head-text{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.header .head-text  h1 {
+    font-size: 70px;
+    font-weight:500;
+    font-family: Ubuntu-M;
+}
+.header .head-text span{
+    color:#FF1C26;
+}
+.header .head-text p {
+    font-size: 27px;
+    font-family: Ubuntu-L;
+}
+
+/*Start Bottom Icons*/
+
+.header .bottom-icons {
+    z-index: 2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header .bottom-icons .contact-icons li a {
+    color: #FFF;
+    font-size: 27px;
+    padding: 10px;
+}
+.header .bottom-icons li a:hover {
+    text-decoration: none;
+    color:#FF1C26
+}
+/*End Bottom Icons*/
+
+
+/*End Header*/
+
+/*Start Services*/
+
+.section-services {
+	padding-top: 110px;
+	padding-bottom: 120px;
+	font-family: Ubuntu-R;
+	background-color: #171C38;
+	color: #fff;
+    z-index: 1;
+    position: relative
+}
+.section-services .layer{
+    background-image: url('../imgs/Services.png')
+}
+.section-services .title span {
+	color: #FF1C26;
+}
+.section-services .header-section .description {
+	color: #FFF;
+}
+
+.section-services .single-service {
+	margin-top: 40px;
+    height: 400px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    z-index: 3;
+    position: relative;
+    background-color: #171C38
+}
+.section-services .single-service .part-1 {
+	padding: 40px 40px 25px;
+	border-bottom: 2px solid #171C38;
+}
+.section-services .single-service .part-1 .imgs {
+    width: 55px;
+    height: 55px;
+}
+.section-services .single-service .part-1 h3 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 20px;
+}
+.section-services .single-service .part-1 .mobile{
+    width: 25px;
+    height: 60px;
+}
+.section-services .single-service .part-2 {
+	padding: 30px 40px 40px;
+}
+.section-services .single-service .part-2 .description {
+	margin-bottom: 22px;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 1.8em;
+}
+/*start our clients*/
+
+.our-clients{
+    background-color: #171C38;
+    position: relative;
+    margin: auto;
+    padding-top: 110px;
+	padding-bottom: 120px;
+}
+.our-clients .layer{
+    background-image: url('../imgs/Clients.png');
+}
+.our-clients h1{
+    margin-bottom: 100px
+}
+.our-clients .white-bg {
+    max-width: 150px;
+    max-height: 150px;
+    min-width: 70px;
+    min-height: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: all 1s ease-in-out;
+}
+.our-clients .white-bg:hover{
+    transform: scale(1.2)
+}
+.our-clients .white-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+/*End our clients*/
+
+/* Start our Team*/
+
+.our-team{
+    background-color: #FFF;
+    padding-bottom: 0;
+    padding-top: 30px;
+    position: relative;
+}
+.our-team .layer{
+    background-image: url('../imgs/Team.png');
+    z-index: 1;
+}
+
+.our-team .title{
+    color:#171C38;
+}
+.our-team .carousel-inner .carousel-item .my-accounts{
+    list-style: none;
+    color: #171C38;
+}
+.our-team .carousel-inner .carousel-item .my-accounts li{
+    margin: 10px;
+}
+.our-team .carousel-inner .carousel-item .my-accounts li i{
+    font-size: 20px;
+    color:#171C38 ;
+}
+.our-team .carousel-inner .carousel-item .job-text {
+    color:#171C38;
+    margin: 30px;
+}
+.our-team .carousel-inner .carousel-item .job-text h3{
+    font-family: Ubuntu-B;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.our-team .carousel-inner .carousel-item .job-text p{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/* All images */
+
+.our-team .carousel-inner  img{
+    max-width: 500px;
+    object-fit: contain;
+}
+
+/* End our Team*/
+
+/*Start our mission*/
+
+.our-mission{
+    background-color: #171C38;
+    background-size: cover;
+    padding-top: 70px;
+	padding-bottom: 70px;
+    position: relative;
+    min-height: 600px
+}
+.our-mission .layer{
+    background-image: url('../imgs/Mission.png');
+    z-index: 1;
+}
+.our-mission  p{
+    color: #FFF;
+    max-width: 500px;
+    font-family: Ubuntu-R;
+    line-height: 2;
+    font-size: 25px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.our-mission  p .bold-line{
+    font-family: Ubuntu-B;
+}
+.our-mission  p .red-word{
+    color: #FF1C26;
+}
+.our-mission .laptop  img{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 30px;
+    object-fit: cover;
+}
+/*End our mission*/
+
+/*Start Footer*/
+
+footer {
+    color: #fff;
+    background: #171C38;
+    padding-top: 50px;
+}
+footer h4 {
+    color: #FF1C26;
+    padding-bottom: 30px
+}
+.social-icon {
+    padding: 0;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    list-style: none;
+}
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+.social-icon li i {
+    font-size: 16px;
+    color: #171C38;
+    border: solid 2px #ffffff;
+    height: 29px;
+    width: 29px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    line-height: 1.5;
+    transition: 1s;
+    background: #fff;
+    margin: 5px;
+}
+.social-icon li i:hover {
+    border: solid 2px #171C38;
+    color: #ffffff;
+    background: #171C38;
+}
+#map {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.map iframe{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding-right: 60px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.address1 li {
+    position: relative;
+    padding: 0px 0 14px 34px;
+    line-height: 1.8;
+}
+.address1 li a {
+    color: #fff;
+    text-decoration: none;
+}
+ul.address1 i {
+    width: 20px;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    font-size: 18px;
+    top: 0;
+}
+.address1 li i:hover {
+    color: #FF1C26;
+    border-color: red;
+}
+ul.address1 i.fa-envelope {
+    font-size: 18px;
+    top: 4px;
+}
+footer ul.social-icon {
+    float: left;
+    margin-bottom: 20px;
+}
+footer .social-icon li i:hover {
+    background: #FF1C26;
+    border-color: #FF1C26;
+}
+.copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.copyright a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF
+}
+.copyright a:hover {
+    color:  #FF1C26;
+    text-decoration: none
+}
+/*End Footer*/
+
+/*My Fonts*/
+
+@font-face {
+    font-family: Ubuntu-B;
+    src: url('../Fonts/Ubuntu-B.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-M;
+    src: url('../Fonts/Ubuntu-M.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-L;
+    src: url('../Fonts/Ubuntu-L.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-R;
+    src: url('../Fonts/Ubuntu-R.TTF')
+}
